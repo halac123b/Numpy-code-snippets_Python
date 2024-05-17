@@ -13,3 +13,6 @@ as_array = np.asarray(tuple_sample, dtype=np.float64)
 shape = np.full(shape=(200, 200, 3), fill_value=as_array, dtype=np.uint8)
 # Thay vì full() với shape tự xác định, ta dùng full_like() với shape đã có sẵn
 same_shape = np.full_like(a=shape, fill_value=as_array, dtype=np.uint8)
+
+# Get data type of Numpy array
+print(same_shape.dtype)
