@@ -16,3 +16,9 @@ same_shape = np.full_like(a=shape, fill_value=as_array, dtype=np.uint8)
 
 # Get data type of Numpy array
 print(same_shape.dtype)
+
+# Create a Numpy array với kích thước của 1 array khác, nhưng tất cả giá trị = 0
+zero_array = np.zeros(shape, shape.dtype)
+
+# Giới hạn giá trị của array, nếu vượt quá sẽ thành min|max
+clipped_array = np.clip(as_array, 0, 255)
