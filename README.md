@@ -1,6 +1,6 @@
 # Numpy-code-snippets_Python
 
-<p>Folder list:</p>
-<ol>
-  <li>Basic syntax</li>
-</ol>
+Folder list:
+
+1. Basic syntax
+2. Work with matrix
